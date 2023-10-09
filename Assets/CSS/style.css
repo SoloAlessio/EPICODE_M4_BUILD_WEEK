@@ -2,8 +2,21 @@
     --green: #1DB954;
     --black: #191414;
     --white: #fff;
+    --grey: #303030;
 }
 
 body{
     background-color: var(--black);
+    font-family: sans-serif !important;
+    color: var(--white);
+}
+
+#hero button{
+    background-color: var(--grey);
+    font-size: 12px;
+}
+
+.card-body p{
+    font-size: 12px;
+    line-height: 12px;
 }
